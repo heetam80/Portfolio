@@ -1,0 +1,148 @@
+html, body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body { 
+  font-family: sans-serif;
+  background: yellow;
+  color: #333;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1.5rem;
+  font-size: 1.125rem;
+  margin: 0;
+  padding-top: 1rem;
+}
+
+.container {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header {
+  text-align: center;
+  height: 70px;
+}
+
+header h1 {
+  color: #c65a00;
+  margin: 0;
+}
+
+footer {
+  margin-top: 5%;
+  text-align: center;
+  padding-block: 2rem;
+  font-size: 1rem;
+  background-color: orange;
+}
+
+.main {
+  background: yellow;
+}
+
+.container h2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 45px;
+  margin-top: 5%;
+}
+
+.works-text1 {
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+.works-text2 {
+  text-align: center;
+  font-size: 1.25rem;
+  margin-bottom: 5%;
+  margin-top: -20px;
+}
+
+.work-card {
+  display: flex;
+  align-items: center;
+  background: #fffaf0;
+  border-radius: 12px;
+  padding: 1rem;
+  gap: 2rem;
+  margin: 0 2.5rem 0 2.5rem;
+  position: relative;
+}
+
+.work-card::before {
+  content: "";
+  width: 10px;
+  height: 100%;
+  background: linear-gradient(to bottom, orange, red);
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 12px 0 0 12px;
+}
+
+.work-image-area {
+  flex: 0 0 420px;
+}
+
+.work-image-area img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+}
+
+.work-content {
+  flex: 1;
+}
+
+.work-title {
+  font-size: 1.8rem;
+  margin: 0 0 1rem;
+  color: #000;
+}
+
+.work-text {
+  font-size: 1rem;
+  line-height: 1.7;
+  margin: 0;
+  color: #333;
+}
+
+.works-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.page-top {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  background-color: #000;
+  color: #fff;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  opacity: 0.8;
+  z-index: 1000;
+}
+
+.page-top:hover {
+  opacity: 1;
+}
