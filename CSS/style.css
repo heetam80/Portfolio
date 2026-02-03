@@ -137,7 +137,7 @@ header h1 {
 
 .works {
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
   flex-wrap: wrap;
 }
 
