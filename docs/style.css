@@ -11,12 +11,11 @@ html, body {
   position: fixed;
   right: 20px;
   bottom: 20px;
-  background-color: #000;
+  background: linear-gradient(135deg, #ff9800, #ffeb3b);
   color: #fff;
   padding: 10px 15px;
-  text-decoration: none;
-  border-radius: 5px;
-  opacity: 0.8;
+  border-radius: 999px;
+  opacity: 0.85;
   z-index: 1000;
 }
 
@@ -26,7 +25,7 @@ html, body {
 
 body {
   font-family: sans-serif;
-  background: yellow;
+  background: #ffeeb6; /* 背景を少し柔らかい黄色に */
   color: #333;
 }
 
@@ -42,14 +41,15 @@ a {
 }
 
 header {
-  background-color: orange;
+  background: linear-gradient(135deg, #ff9800, #ffeb3b); /* グラデーション */
   text-align: center;
   height: 670px;
 }
 
 header h1 {
-  color: #c65a00;
+  color: #ff6f09; /* 白文字で見やすく */
   margin: 0;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.2);
 }
 
 .nav {
@@ -67,12 +67,14 @@ header h1 {
   align-items: center;
   font-size: 45px;
   margin-top: 12%;
+  color: #ffffff;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.2);
 }
 
 .section h2 {
   font-size: 2.5rem;
-  color: #ff4d4d;
-  border-bottom: 0.125rem solid #ff4d4d;
+  color: #ff7043; /* 見出しをオレンジ系に */
+  border-bottom: 0.125rem solid #ffca28; /* 明るい黄色のライン */
 }
 
 .profile {
@@ -113,22 +115,24 @@ header h1 {
 }
 
 .skill-card {
-  background: #fff;
-  padding: 1.8rem;
+  background: #ffffff; /* 柔らかいオレンジ背景 */
+  padding: 1.5rem;
   border-radius: 12px;
   width: 25%;
   min-width: 260px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
+
 .skill-card h3 {
   margin-top: 0;
-  color: #ff6a00;
+  color: #ff7043;
 }
 
 .skill-card ul {
   list-style: none;
   padding: 0;
+
 }
 
 .skill-card li {
@@ -162,15 +166,21 @@ header h1 {
   padding: 0.75rem 1.5rem;
   font-size: 1rem;
   margin-bottom: 5%;
+  background: linear-gradient(135deg, #ff9800, #ffeb3b); /* ボタンもグラデーション */
+  border: none;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.more:hover {
+  opacity: 0.9;
 }
 
 footer {
   text-align: center;
   padding-block: 2rem;
   font-size: 1rem;
-  background-color: orange;
-}
-
-.main {
-  background: yellow;
+  background: linear-gradient(135deg, #ff9800, #ffeb3b); /* グラデーション */
 }

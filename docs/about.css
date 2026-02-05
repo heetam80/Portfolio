@@ -4,11 +4,12 @@ html, body {
   padding: 0;
   overflow-x: hidden;
   scroll-behavior: smooth;
+  
 }
 
 body { 
   font-family: sans-serif;
-  background: yellow;
+  background: #ffeeb6; /* 背景を少し柔らかい黄色に */
   color: #333;
 }
 
@@ -35,6 +36,8 @@ a {
 header {
   text-align: center;
   height: 70px;
+  background: linear-gradient(135deg, #ff9800, #ffeb3b);
+
 }
 
 header h1 {
@@ -47,11 +50,11 @@ footer {
   text-align: center;
   padding-block: 2rem;
   font-size: 1rem;
-  background-color: orange;
+  background: linear-gradient(135deg, #ff9800, #ffeb3b);
 }
 
 .main {
-  background: yellow;
+  /* background: yellow; */
 }
 
 .container h2{
@@ -134,12 +137,11 @@ footer {
   position: fixed;
   right: 20px;
   bottom: 20px;
-  background-color: #000;
+  background: linear-gradient(135deg, #ff9800, #ffeb3b);
   color: #fff;
   padding: 10px 15px;
-  text-decoration: none;
-  border-radius: 5px;
-  opacity: 0.8;
+  border-radius: 999px;
+  opacity: 0.85;
   z-index: 1000;
 }
 
