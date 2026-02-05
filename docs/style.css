@@ -25,7 +25,7 @@ html, body {
 
 body {
   font-family: sans-serif;
-  background: #ffeeb6; /* 背景を少し柔らかい黄色に */
+  background: #ffeeb6; 
   color: #333;
 }
 
@@ -41,13 +41,13 @@ a {
 }
 
 header {
-  background: linear-gradient(135deg, #ff9800, #ffeb3b); /* グラデーション */
+  background: linear-gradient(135deg, #ff9800, #ffeb3b); 
   text-align: center;
   height: 670px;
 }
 
 header h1 {
-  color: #ff6f09; /* 白文字で見やすく */
+  color: #ff6f09;
   margin: 0;
   text-shadow: 0 2px 6px rgba(0,0,0,0.2);
 }
@@ -73,8 +73,8 @@ header h1 {
 
 .section h2 {
   font-size: 2.5rem;
-  color: #ff7043; /* 見出しをオレンジ系に */
-  border-bottom: 0.125rem solid #ffca28; /* 明るい黄色のライン */
+  color: #ff7043;
+  border-bottom: 0.125rem solid #ffca28; 
 }
 
 .profile {
@@ -115,7 +115,7 @@ header h1 {
 }
 
 .skill-card {
-  background: #ffffff; /* 柔らかいオレンジ背景 */
+  background: #ffffff; 
   padding: 1.5rem;
   border-radius: 12px;
   width: 25%;
@@ -166,7 +166,7 @@ header h1 {
   padding: 0.75rem 1.5rem;
   font-size: 1rem;
   margin-bottom: 5%;
-  background: linear-gradient(135deg, #ff9800, #ffeb3b); /* ボタンもグラデーション */
+  background: linear-gradient(135deg, #ff9800, #ffeb3b); 
   border: none;
   color: #fff;
   border-radius: 8px;
@@ -182,5 +182,5 @@ footer {
   text-align: center;
   padding-block: 2rem;
   font-size: 1rem;
-  background: linear-gradient(135deg, #ff9800, #ffeb3b); /* グラデーション */
+  background: linear-gradient(135deg, #ff9800, #ffeb3b); 
 }

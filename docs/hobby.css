@@ -14,7 +14,6 @@ body {
   color: #444;
 }
 
-/* ページトップ */
 .page-top {
   position: fixed;
   right: 20px;
@@ -31,13 +30,11 @@ body {
   opacity: 1;
 }
 
-/* 共通 */
 a {
   text-decoration: none;
   color: inherit;
 }
 
-/* ===== 指定：ここは変更なし ===== */
 .container {
   width: 90%;
   margin-left: auto;
@@ -58,19 +55,15 @@ header {
   margin: 0;
   padding-top: 1rem;
 }
-/* ===== ここまで変更なし ===== */
 
-/* メイン */
 .main {
   background: #ffffff;
 }
 
-/* セクション */
 .section {
   padding: 1rem 0;
 }
 
-/* 見出し */
 .section h2,
 .section-title {
   font-size: 2.4rem;
@@ -80,7 +73,6 @@ header {
   margin-bottom: 2rem;
 }
 
-/* 説明文 */
 .works-text1,
 .works-text2 {
   text-align: center;
@@ -88,12 +80,10 @@ header {
   line-height: 1.8;
 }
 
-/* 背景薄色 */
 .bg-light {
   background: #f9fcff;
 }
 
-/* コンテンツ */
 .content {
   display: flex;
   gap: 2.5rem;
@@ -110,12 +100,10 @@ header {
   box-shadow: 0 8px 20px rgba(0,0,0,0.1);
 }
 
-/* テキスト */
 .text p {
   line-height: 1.9;
 }
 
-/* 楽曲 */
 .music {
   display: flex;
   gap: 1.5rem;
@@ -137,7 +125,6 @@ header {
   color: #f06292;
 }
 
-/* Worksカード（about系デザイン流用） */
 .works-list {
   display: flex;
   flex-direction: column;
@@ -184,7 +171,6 @@ header {
   line-height: 1.7;
 }
 
-/* フッター（about準拠） */
 footer {
   text-align: center;
   padding-block: 2rem;
@@ -220,7 +206,7 @@ h1{
   padding: 0.75rem 1.5rem;
   font-size: 1rem;
   margin-bottom: 5%;
-  background: linear-gradient(135deg, #f8bbd0, #b3e5fc); /* ボタンもグラデーション */
+  background: linear-gradient(135deg, #f8bbd0, #b3e5fc);
   border: none;
   color: #fff;
   border-radius: 8px;
